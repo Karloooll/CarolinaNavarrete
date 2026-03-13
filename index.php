@@ -39,6 +39,7 @@
         <ul class="nav-links" id="nav-links">
             <li><button class="close-menu" id="close-menu"><i class="bi bi-x"></i></button></li>
             <li><a href="#inicio">Inicio</a></li>
+            <li><a href="cursos.php" style="color: var(--primary);">Academia</a></li>
             <li><a href="#servicios">Servicios</a></li>
             <li><a href="#vision">Visión</a></li>
             <li><a href="#testimonios">Testimonios</a></li>
@@ -54,6 +55,23 @@
             <p>Transformamos tu negocio integrando rentabilidad económica y responsabilidad ambiental para un futuro
                 próspero y sostenible.</p>
             <a href="#servicios" class="btn btn-primary">Descubre Cómo</a>
+        </div>
+    </section>
+
+    <!-- Academy Teaser -->
+    <section class="content-section reveal" id="academia"
+        style="background-color: var(--bg-light); flex-direction: row-reverse;">
+        <div class="content-image">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                alt="Academia Online">
+        </div>
+        <div class="content-text">
+            <h2 style="color: var(--primary);">Academia Online</h2>
+            <p>Convierte el conocimiento en el activo más valioso de tu empresa. Explora nuestros cursos especializados
+                en finanzas, sustentabilidad y crecimiento corporativo.</p>
+            <p>Aprende a tu propio ritmo con materiales descargables, ejemplos reales y asesoría experta.</p>
+            <a href="cursos.php" class="btn btn-primary" style="margin-top: 1rem;"><i class="fas fa-graduation-cap"></i>
+                Ver Catálogo de Cursos</a>
         </div>
     </section>
 
